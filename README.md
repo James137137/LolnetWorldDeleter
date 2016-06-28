@@ -1,0 +1,4 @@
+LolnetWorldDeleter
+=============
+
+A bukkit plugin

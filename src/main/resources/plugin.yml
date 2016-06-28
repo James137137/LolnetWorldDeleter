@@ -1,0 +1,17 @@
+name: LolnetWorldDeleter
+main: nz.co.lolnet.LolnetWorldDeleter.LolnetWorldDeleter
+version: 0.0.1
+commands:
+  deleteWorld:
+    description: Allows Player to delete a world
+    usage: /<command> worldName
+    
+permissions:
+  LolnetWorldDeleter.*:
+    description: Gives access to all LolnetWorldDeleter commands
+    default: op
+    children:
+      LolnetWorldDeleter.deleteWorld: true
+  LolnetWorldDeleter.deleteWorld:
+    description: Allows player to use the command /deleteWorld
+    default: op
